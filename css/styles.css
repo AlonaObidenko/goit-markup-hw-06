@@ -520,6 +520,10 @@ background-color: rgba(47, 48, 58, 0.8);
   background-color: #2f303a;
 }
 
+.footer-adresses {
+  flex-grow: 1;
+}
+
 .logo-footer {
   display: block;
   margin-bottom: 20px;
@@ -623,8 +627,7 @@ background-color: rgba(47, 48, 58, 0.8);
   display: flex;
 }
 .subscribe-text,
-.email,
-.subscribe-submition {
+.email {
   display: block;
 }
 .subscribe-steps {
@@ -672,15 +675,14 @@ color: rgba(255, 255, 255, 0.6);
   background-color: var(--accent-color);
   cursor: pointer;
 }
-.subscribe-submition {
-  position: relative;
-  min-width: 200px;
-}
-.send-icon {
-  position: absolute;
-  top: 13px;
-  right: 28px;
 
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  height: 50px;
+  padding: 10px 28px;
 }
 
 /* --------------Portfolio PAGE-------------- */
@@ -867,7 +869,7 @@ font-size: 20px;
 line-height: calc(23/20);
 text-align: center;
 letter-spacing: 0.03em;
-margin-bottom: 30px;
+margin-bottom: 12px;
 
 color: var(--title-text-color);
 }
@@ -877,9 +879,11 @@ color: var(--title-text-color);
 }
 
 .modal-form-label {
+  display: block;
   font-size: 12px;
   line-height: calc(14/12);
   letter-spacing: 0.01em;
+  margin-bottom: 4px;
 
   color: var(--primary-text-color);
 }
@@ -916,6 +920,7 @@ color: var(--title-text-color);
 }
 
 .modal-comment {
+  display:block;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -941,6 +946,7 @@ color: rgba(117, 117, 117, 0.5);
 
 .check-label {
 display: flex;
+justify-content: center;
 align-items: center;
 font-size: 14px;
 line-height: calc(24/14);
