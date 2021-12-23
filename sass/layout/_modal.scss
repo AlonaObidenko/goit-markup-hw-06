@@ -58,7 +58,6 @@
   font-size: 20px;
   line-height: calc(23/20);
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 12px;
   
   color: var(--title-text-color);
@@ -138,9 +137,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
   line-height: calc(24/14);
-  letter-spacing: 0.03em;
   cursor: pointer;
   }
   
@@ -163,14 +160,14 @@
   .modal-form-input:hover + .modal-form-icon,
   .modal-form-input:focus + .modal-form-icon {
     fill: var(--accent-color);
-    transition-property: fill 250ms var(--transition-effect);
+    transition-property: fill var(--transition-duration) var(--transition-effect);
   }
   
   .modal-form-input:focus,
   .modal-comment:focus {
     outline: transparent;
     border-color: var(--accent-color);
-    transition-property: transform 250ms var(--transition-effect);
+    transition-property: transform var(--transition-duration) var(--transition-effect);
   }
   
   .checkbox:checked + .check-label > .icon-check {
