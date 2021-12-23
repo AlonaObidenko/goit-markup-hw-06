@@ -13,7 +13,7 @@
     display: block;
     margin-bottom: 20px;
   
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -32,8 +32,8 @@
     color: rgba(255, 255, 255, 0.6);
   
     transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-effect);  
   }
   
   .adress-link:hover,
@@ -90,8 +90,8 @@
     fill: var(--primary-white-color);
   
     transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-effect);    
   }
   
   .our-nets-link:hover,
