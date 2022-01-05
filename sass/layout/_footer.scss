@@ -131,6 +131,7 @@
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    color: var(--primary-white-color);
   }
   .mail::placeholder {
   font-size: 16px;
@@ -138,7 +139,7 @@
   
   color: rgba(255, 255, 255, 0.6);
   }
-  
+
   .subscribe-btn,
   .form-btn {
     display: block;
